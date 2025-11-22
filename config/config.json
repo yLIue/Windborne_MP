@@ -1,0 +1,33 @@
+{
+	"projectInfo":{
+		"name":"Windborne_MP",
+		"type":"MP",
+		"ver":"0.0.4",
+		"createdDate":"2025.11.22"
+	},
+	"index":[
+		{
+			"type":"showCount",
+			"count":0,
+			"countType":"笔记",
+			"class":"笔记",
+			"icoClass":"Cards",
+			"ico":"Note",
+			"icoType":".png",
+			"description":"上次更新时间：全局更新描述和笔记个数统计",
+			"jumpClass":"Note",
+			"jump":"noteIndex"
+		},
+		{
+			"type":"card",
+			"class":"设置",
+			"title":"随心所欲",
+			"icoClass":"Cards",
+			"ico":"Set",
+			"icoType":".png",
+			"description":"乱七八糟的设置",
+			"jumpClass":"Set",
+			"jump":"setIndex"
+		}
+	]
+}
