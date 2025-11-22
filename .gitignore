@@ -1,0 +1,11 @@
+# Python
+
+# HBuilder X
+unpackage/
+
+
+# C
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+*.exe
