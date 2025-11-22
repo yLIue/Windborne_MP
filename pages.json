@@ -6,6 +6,27 @@
 				// "navigationBarTitleText": "uni-app"
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path" : "pages/Set/setIndex",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "modules/Card",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/Note/noteIndex",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"globalStyle": {
