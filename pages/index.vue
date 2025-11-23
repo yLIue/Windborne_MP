@@ -15,6 +15,8 @@
 <script>
 	import Data from '../config/config.json'
 	import Card from '../modules/Card'
+	import Markdown from '../js/Markdown'
+	// import Note from '../note/CiscoNote.md'
 	export default {
 		data() {
 			return {
@@ -23,6 +25,7 @@
 		},
 		onLoad() {
 			this.cards = Data.index
+			Markdown.read('note/CiscoNote.md')
 		},
 		methods: {
 		},
