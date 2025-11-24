@@ -25,7 +25,14 @@
 			"path" : "pages/Note/noteIndex",
 			"style" : 
 			{
-				"navigationBarTitleText" : ""
+				// "navigationBarTitleText" : ""
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "modules/NoteLine",
+			"style": {
+				"navigationBarTitleText": ""
 			}
 		}
 	],
