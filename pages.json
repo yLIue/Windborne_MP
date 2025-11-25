@@ -49,7 +49,7 @@
 		{
 			"path": "pages/Set/SetPages/about",
 			"style": {
-				"navigationBarTitleText": ""
+				"navigationStyle": "custom"
 			}
 		}
 	],
