@@ -11,7 +11,8 @@
 			"path" : "pages/Set/setIndex",
 			"style" : 
 			{
-				"navigationBarTitleText" : ""
+				// "navigationBarTitleText" : ""
+				"navigationStyle": "custom"
 			}
 		},
 		{
@@ -32,7 +33,15 @@
 		{
 			"path": "modules/NoteLine",
 			"style": {
-				"navigationBarTitleText": ""
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "modules/Title",
+			"style": {
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
 			}
 		}
 	],
