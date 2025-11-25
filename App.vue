@@ -16,4 +16,9 @@
 	body{
 		background-color: #f7f7f7;
 	}
+	@font-face {
+	  font-family: 'ICO';
+	  src: 
+	       url('https://at.alicdn.com/t/c/font_4310283_2e06mdlry6z.ttf?t=1749964037919') format('truetype');
+	}
 </style>
