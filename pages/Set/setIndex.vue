@@ -2,7 +2,7 @@
 	<view>
 		<Title title="设置"></Title>
 		
-		<view v-for="(itemList,indexList) in cards"
+		<view v-for="(itemList,indexList) in cards" @click="Jump(itemList.jumpClass,itemList.jump)"
 		:key="'list'+indexList" class="list" hover-class="list--hover" hover-stay-time="50">
 			<view class="list_title">{{itemList.title}}</view>
 			<view class="list_description">{{itemList.description}}</view>
@@ -32,7 +32,11 @@
 			}
 		},
 		methods: {
-			
+			Jump(_jumpClass,_jump){
+				uni.navigateTo({
+					url:'/pages/Set/'+_jumpClass+'/'+_jump
+				})
+			}
 		},
 		components:{
 			Title
