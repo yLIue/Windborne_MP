@@ -9,13 +9,11 @@
 </template>
 
 <script>
+	import Rewind from '../js/Rewind.js'
 	export default {
 		data() {
 			return {
-				rewind:{
-					'text':'寻风而落的花，在地上生了芽',
-					'date':'23.10.3-17:27'
-				},
+				rewind:{},
 				showDate:false
 			}
 		},
@@ -23,6 +21,9 @@
 			ShowDate(){
 				this.showDate = !this.showDate
 			}
+		},
+		mounted(){
+			this.rewind = Rewind.read()
 		}
 	}
 </script>
