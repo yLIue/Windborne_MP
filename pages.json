@@ -11,7 +11,6 @@
 			"path" : "pages/Set/setIndex",
 			"style" : 
 			{
-				// "navigationBarTitleText" : ""
 				"navigationStyle": "custom"
 			}
 		},
@@ -26,21 +25,24 @@
 			"path" : "pages/Note/noteIndex",
 			"style" : 
 			{
-				// "navigationBarTitleText" : ""
 				"navigationStyle": "custom"
 			}
 		},
 		{
 			"path": "modules/NoteLine",
 			"style": {
-				// "navigationBarTitleText": ""
 				"navigationStyle": "custom"
 			}
 		},
 		{
 			"path": "modules/Title",
 			"style": {
-				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "modules/Rewind",
+			"style": {
 				"navigationStyle": "custom"
 			}
 		}
