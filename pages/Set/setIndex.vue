@@ -1,12 +1,11 @@
 <template>
 	<view>
 		<Title title="设置"></Title>
-		<view class="Set-list-box" v-for="(v,setlistkey) in list" :key="setlistkey" @click="To(v.to)"
-		hover-class="on" hover-stay-time="50">
-			<view>
-				<view class="Set-list-name">{{v.name}}</view>
-				<view class="Set-list-text">{{v.text}}</view>
-			</view>
+		
+		<view v-for="(itemList,indexList) in cards" @click="Jump(itemList.jumpClass,itemList.jump)"
+		:key="'list'+indexList" class="list" hover-class="list--hover" hover-stay-time="50">
+			<view class="list_title">{{itemList.title}}</view>
+			<view class="list_description">{{itemList.description}}</view>
 		</view>
 	</view>
 </template>
@@ -16,22 +15,28 @@
 	export default {
 		data() {
 			return {
-				list:[
+				cards:[
 					{
-						name:'关于小程序',
-						text:"版本号、更新日志",
-						to:'About'
+						title:'关于小程序',
+						description:"版本号、更新日志",
+						jumpClass:'SetPages',
+						jump:'about'
 					},
 					{
-						name:'鸣谢名单',
-						text:"",
-						to:'Love'
+						title:'鸣谢名单',
+						description:"",
+						jumpClass:'SetPages',
+						jump:'star'
 					}
 				]
 			}
 		},
 		methods: {
-			
+			Jump(_jumpClass,_jump){
+				uni.navigateTo({
+					url:'/pages/Set/'+_jumpClass+'/'+_jump
+				})
+			}
 		},
 		components:{
 			Title
@@ -40,22 +45,24 @@
 </script>
 
 <style lang="scss">
-	.Set-list-box{
-		height: 110rpx;
+	.list{
+		height: 130rpx;
 		padding-left: 50rpx;
 		margin-bottom: 10rpx;
+		//上下对齐
 		display: flex;
-		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
-	.Set-list-name{
+	.list_title{
 		font-size: 35rpx;
 		color: #343434;
 	}
-	.Set-list-text{
+	.list_description{
 		font-size: 25rpx;
 		color: #606060;
 	}
-	.on{
+	.list--hover{
 		background-color: #ebebeb;
 	}
 </style>
