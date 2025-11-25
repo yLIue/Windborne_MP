@@ -5,6 +5,8 @@
 			归<text class="title_off">风鸣</text>
 		</view>
 		
+		<Rewind></Rewind>
+		
 		<view v-for="(card,cardKey) in cards" :key="'card' + cardKey">
 			<Card :card="card"></Card>
 		</view>
@@ -15,6 +17,7 @@
 <script>
 	import Data from '../config/config.json'
 	import Card from '../modules/Card'
+	import Rewind from '../modules/Rewind.vue'
 	export default {
 		data() {
 			return {
@@ -27,7 +30,7 @@
 		methods: {
 		},
 		components:{
-			Card
+			Card,Rewind
 		}
 	}
 </script>
