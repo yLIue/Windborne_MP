@@ -4,12 +4,14 @@
 # Python
 .venv/
 dist/
-run.txt
 setup.py
 __pycache__
 
 # HBuilder X
 unpackage/
+project.config.json
+project.private.config.json
+manifest.json
 
 # C
 cmake-build-debug/
