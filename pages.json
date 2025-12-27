@@ -51,6 +51,31 @@
 			"style": {
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path" : "modules/UpdataLog",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path": "pages/Set/SetPages/updataLog",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Set/SetPages/contributors",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "modules/InfoDevelop",
+			"style": {
+				"navigationBarTitleText": ""
+			}
 		}
 	],
 	"globalStyle": {
