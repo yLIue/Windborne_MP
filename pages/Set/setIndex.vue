@@ -23,10 +23,10 @@
 						jump:'about'
 					},
 					{
-						title:'鸣谢名单',
+						title:'项目贡献',
 						description:"",
 						jumpClass:'SetPages',
-						jump:'star'
+						jump:'contributors'
 					}
 				]
 			}
