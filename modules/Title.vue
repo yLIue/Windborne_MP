@@ -24,9 +24,6 @@
 </script>
 
 <style lang="scss">
-	.status{
-		height: var(--status-ber-height);
-	}
 	.title_text{
 		flex-grow: 1;
 		//居中

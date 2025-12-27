@@ -36,9 +36,6 @@
 </script>
 
 <style>
-	.status{
-		height: var(--status-ber-height);
-	}
 	.title {
 		background-color: #f7f7f7;
 		height: 130rpx;

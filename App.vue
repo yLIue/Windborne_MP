@@ -13,8 +13,11 @@
 </script>
 
 <style>
-	body{
+	page{
 		background-color: #f7f7f7;
+	}
+	.status{
+		height: var(--status-bar-height);
 	}
 	@font-face {
 	  font-family: 'ICO';
