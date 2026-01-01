@@ -56,11 +56,11 @@
 	}
 	.list_title{
 		font-size: 35rpx;
-		color: #343434;
+		color: var(--font-color);
 	}
 	.list_description{
 		font-size: 25rpx;
-		color: #606060;
+		color: var(--description);
 	}
 	.list--hover{
 		background-color: #ebebeb;

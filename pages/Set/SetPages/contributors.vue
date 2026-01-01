@@ -44,9 +44,10 @@
 	.love-text{
 		padding-left: 40rpx;
 		font-size: 32rpx;
-		padding-bottom: 15rpx;
+		padding-bottom: 50rpx;
 		display: flex;
 		justify-content: center;
+		color: var(--font-color);
 	}
 	.love-title{
 		color: #999999;
@@ -55,17 +56,18 @@
 		padding-left: 50rpx;
 		padding-right: 50rpx;
 		font-size: 30rpx;
-		margin-bottom: 15rpx;
+		margin-bottom: 50rpx;
 	}
 	.contributor-work{
 		font-size: 24rpx;
-		color: #6d6d72;
+		color: var(--description);
 		margin-top: 4rpx;
 	}
 	.contributor-text{
 		display: flex;
 		flex-direction: column;
 		font-size: 32rpx;
+		color: var(--font-color);
 	}
 	.contributor-ico{
 		width: 80rpx;
@@ -95,8 +97,6 @@
 	.contributor-title{
 	  padding: 30rpx 40rpx 16rpx;
 	  font-size: 26rpx;
-	  color: #6d6d72;
+	  color: var(--description);
 	}
-	.ico_purple { background: linear-gradient(135deg, #AF52DE, #5856D6); }
-	.ico_pink { background: linear-gradient(135deg, #FF2D55, #FF375F); }
 </style>

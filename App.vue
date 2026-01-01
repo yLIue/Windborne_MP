@@ -13,12 +13,19 @@
 </script>
 
 <style>
+	:root{
+		--background: #f7f7f7;
+		--description: #6d6d72;
+		--font-color:#343434;
+	}
 	page{
-		background-color: #f7f7f7;
+		background-color: var(--background);
 	}
 	.status{
 		height: var(--status-bar-height);
 	}
+	.ico_purple { background: linear-gradient(135deg, #AF52DE, #5856D6); }
+	.ico_pink { background: linear-gradient(135deg, #FF2D55, #FF375F); }
 	@font-face {
 	  font-family: 'ICO';
 	  src: 

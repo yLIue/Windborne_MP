@@ -53,11 +53,11 @@
 		/* margin: 30rpx; */
 		font-size: 28rpx;
 		padding: 30rpx;
-		color: #949aa8;
+		color: var(--description);
 	}
 	.card_describe{
 		font-size: 24rpx;
-		color: #999999;
+		color: var(--description);
 		margin-left: 140rpx;
 		margin-top: 5rpx;
 	}
@@ -70,7 +70,7 @@
 	}
 	.card_info{
 		display: flex;
-		color: #343434;
+		color: var(--font-color);
 	}
 	.card_text{
 		font-size: 35rpx;

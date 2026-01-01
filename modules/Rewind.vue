@@ -40,7 +40,7 @@
 		align-items: center;
 	}
 	.rewind_text{
-		color: #999999;
+		color: var(--description);
 		margin-bottom: 5rpx;
 		// 居中
 		display: flex;
